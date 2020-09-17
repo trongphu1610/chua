@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.samsung.dvt.demodrawable.MainActivity">
+
+    <ImageView
+        android:id="@+id/img_rotate_drawable"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        />
+
+    <ImageView
+        android:id="@+id/img_layer_list"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:src="@drawable/demo_layer_list" />
+
+    <ImageView
+        android:id="@+id/img_inset_drawable"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/inset_drawable" />
+
+    <Button
+        android:id="@+id/btn_color_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color state"
+        android:textColor="@color/color_press" />
+
+    <ImageView
+        android:id="@+id/img_clip_drawable"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/demo_clip_drawable" />
+
+    <ImageView
+        android:id="@+id/img_level_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/demo_level_list" />
+
+    <ImageButton
+        android:id="@+id/btn_transition_drawable"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/transition" />
+
+    <ImageView
+        android:id="@+id/img_animation_drawable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/animation_drawable" />
+
+    <Button
+        android:id="@+id/btn_state_drawable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/state_list_drawable"
+        android:padding="10dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/img_bitmap_drawable"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/facebook" />
+
+    <TextView
+        android:id="@+id/tv_shape_drawable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/demo_shape_drawable"
+        android:text="This is message"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+</LinearLayout>

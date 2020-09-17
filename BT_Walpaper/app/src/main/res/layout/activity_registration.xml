@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="@dimen/diment_20dp"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên"
+        android:textSize="@dimen/dimen_20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mời nhập họ và tên" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày sinh "
+        android:textSize="@dimen/dimen_20sp"
+        android:layout_marginTop="10dp"
+
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mời Nhập ngày sinh" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tài khoản"
+        android:textSize="@dimen/dimen_20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mời nhập tài khoản" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mật khẩu"
+        android:textSize="@dimen/dimen_20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mời nhập mật khẩu"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập lại Mật khẩu"
+        android:textSize="@dimen/dimen_20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mời nhập lại mật khẩu"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/registration2"
+        android:padding="20dp"
+        android:onClick="registration2"
+        android:text="Registration"
+        android:textColor="@color/colorRed"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

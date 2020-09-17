@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_25dp">25dp</dimen>
+    <dimen name="margin_200dp">200dp</dimen>
+    <dimen name="margin_35dp">35dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+    <dimen name="mardin_20dp">20dp</dimen>
+    <dimen name="padding_150dp">150dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_17dp">17sp</dimen>
+    <dimen name="margin_100dp">100dp</dimen>
+    <dimen name="margin_10dp">5dp</dimen>
+    <dimen name="margin_60dp">60dp</dimen>
+    <dimen name="margin_45dp">45dp</dimen>
+    <dimen name="margin_0dp">0dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_48dp">48dp</dimen>
+    <dimen name="margin_12dp">12dp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/pin1"
+        android:maxLevel="25"
+        android:minLevel="0" />
+
+    <item
+        android:drawable="@drawable/pin2"
+        android:maxLevel="50"
+        android:minLevel="26" />
+
+    <item
+        android:drawable="@drawable/pin3"
+        android:maxLevel="75"
+        android:minLevel="51" />
+
+    <item
+        android:drawable="@drawable/pin4"
+        android:maxLevel="100"
+        android:minLevel="76" />
+</level-list>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BT_Day5</string>
+    <string name="title_name">Application Caculator simple</string>
+    <string name="title_edt_numberone">Input the first number here</string>
+    <string name="title_input_the_second_number_here">Input the second number here</string>
+    <string name="title_ket_qua">Result </string>
+    <string name="title_pheptru">-</string>
+    <string name="title_phepcong">+</string>
+    <string name="title_phepchia">/</string>
+    <string name="title_phep_nhan">*</string>
+</resources>

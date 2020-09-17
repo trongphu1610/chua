@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai1_Calculator"
+    android:background="#D8DDBE"
+    >
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="@string/title_name"
+        android:textColor="#F60303"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_numberone"
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/title_edt_numberone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+    <EditText
+        android:id="@+id/edt_numbertwo"
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/title_input_the_second_number_here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_numberone" />
+
+    <TextView
+        android:id="@+id/tv_contact"
+        android:layout_width="90dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/title_ket_qua"
+        app:layout_constraintBottom_toTopOf="@+id/btn_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_numbertwo"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <Button
+        android:id="@+id/btn_subtraction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/title_pheptru"
+        android:textSize="@dimen/textSize_20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_add"
+        app:layout_constraintEnd_toStartOf="@+id/btn_division"
+        app:layout_constraintStart_toEndOf="@+id/btn_add"
+        app:layout_constraintTop_toTopOf="@+id/btn_add" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="212dp"
+        android:text="@string/title_phepcong"
+        android:textSize="@dimen/textSize_20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_subtraction"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_division"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/title_phepchia"
+        android:textSize="@dimen/textSize_20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_subtraction"
+        app:layout_constraintEnd_toStartOf="@+id/btn_multiplication"
+        app:layout_constraintStart_toEndOf="@+id/btn_subtraction"
+        app:layout_constraintTop_toTopOf="@+id/btn_add" />
+
+    <Button
+        android:id="@+id/btn_multiplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/title_phep_nhan"
+        android:textSize="@dimen/textSize_20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_division"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_division"
+        app:layout_constraintTop_toTopOf="@+id/btn_add" />
+</androidx.constraintlayout.widget.ConstraintLayout>

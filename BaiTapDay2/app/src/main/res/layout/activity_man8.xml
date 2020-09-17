@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ly_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="@dimen/margin_45dp"
+            android:layout_height="@dimen/margin_45dp"
+            android:layout_margin="@dimen/margin_10dp"
+            android:layout_weight="1"
+            android:src="@drawable/hambuger" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_10dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="Profile"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/margin_30dp" />
+
+        <ImageView
+            android:layout_width="@dimen/margin_45dp"
+            android:layout_height="@dimen/margin_45dp"
+            android:layout_margin="@dimen/margin_10dp"
+            android:layout_weight="1"
+            android:src="@drawable/optionp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/ly_title"
+        android:background="@drawable/anh_rung" />
+
+    <TextView
+        android:id="@+id/tv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/de_avt"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_above="@id/tv_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-60dp"
+        android:src="@drawable/anhdaidien" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/margin_60dp"
+        android:layout_height="@dimen/margin_60dp"
+        android:layout_above="@id/tv_bottom"
+        android:layout_marginRight="@dimen/margin_30dp"
+        android:layout_marginBottom="-30dp"
+        android:layout_toLeftOf="@id/de_avt"
+        android:src="@drawable/iconchat" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/margin_60dp"
+        android:layout_height="@dimen/margin_60dp"
+        android:layout_above="@id/tv_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/margin_30dp"
+        android:layout_marginBottom="-30dp"
+        android:layout_toRightOf="@id/de_avt"
+        android:src="@drawable/iconadd" />
+
+    <TextView
+        android:id="@+id/tv_namee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/de_avt"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="@string/title_trong_phu"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_nghe_nghiep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_namee"
+        android:layout_marginTop="@dimen/mardin_20dp"
+        android:gravity="center"
+        android:text="@string/title_model_super_start"
+        android:textColor="@color/color_blue"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nghe_nghiep"
+        android:gravity="center"
+        android:text="@string/content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_weight="1"
+            android:src="@drawable/nc1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_weight="1"
+            android:src="@drawable/nc2" />
+    </LinearLayout>
+
+
+</RelativeLayout>

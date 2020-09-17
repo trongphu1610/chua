@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_album"
+        android:icon="@drawable/albumlogo"
+        android:title="@string/title_album"/>
+    <item
+        android:id="@+id/item_rank"
+        android:icon="@drawable/ranking"
+        android:title="@string/title_top"/>
+    <item
+        android:id="@+id/item_faverite"
+        android:icon="@drawable/heart"
+        android:title="@string/title_favorite"/>
+    <item
+        android:id="@+id/item_singer"
+        android:icon="@drawable/singer"
+        android:title="@string/title_singer"/>
+    <item
+        android:id="@+id/item_personal"
+        android:icon="@drawable/user"
+        android:title="@string/title_person"/>
+
+</menu>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393737"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:layout_marginLeft="@dimen/margin_25dp"
+        android:layout_marginRight="@dimen/margin_25dp"
+        android:background="@color/color_xam"
+        android:paddingLeft="@dimen/margin_25dp"
+        android:text="@string/title_fullname"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/margin_25dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:layout_marginLeft="@dimen/margin_25dp"
+        android:layout_marginTop="@dimen/margin_25dp"
+        android:layout_marginRight="@dimen/margin_25dp"
+        android:background="@color/color_xam"
+        android:paddingLeft="@dimen/margin_25dp"
+        android:text="@string/title_email"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/margin_25dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:layout_marginLeft="@dimen/margin_25dp"
+        android:layout_marginTop="@dimen/margin_25dp"
+        android:layout_marginRight="@dimen/margin_25dp"
+        android:background="@color/color_xam"
+        android:paddingLeft="@dimen/margin_25dp"
+        android:text="@string/title_password"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/margin_25dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="@dimen/margin_25dp"
+        android:layout_marginTop="@dimen/margin_50dp"
+        android:layout_marginRight="@dimen/margin_25dp"
+        android:background="@color/color_xam"
+        android:backgroundTint="@color/color_pink1"
+        android:text="@string/titile_register"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/mardin_20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_50dp"
+        android:text="@string/title_already_registred_login_me"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/mardin_20dp" />
+
+
+</LinearLayout>

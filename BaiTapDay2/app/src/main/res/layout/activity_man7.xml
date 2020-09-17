@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/ly_cover"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_200dp"
+        android:background="@drawable/anhdep"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/mardin_20dp"
+            android:layout_marginBottom="@dimen/mardin_20dp"
+            android:text="@string/name_tony"
+            android:textColor="@color/color_white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ln_Inf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ly_cover"
+        android:layout_margin="@dimen/margin_8dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_level"
+                android:layout_width="@dimen/margin_48dp"
+                android:layout_height="@dimen/margin_48dp"
+                android:src="@drawable/level" />
+
+            <TextView
+                android:id="@+id/tv_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_12dp"
+                android:layout_toRightOf="@id/img_level"
+                android:text="@string/title_5_level"
+                android:textColor="@color/color_cam"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_love"
+                android:layout_width="@dimen/margin_48dp"
+                android:layout_height="@dimen/margin_48dp"
+                android:layout_marginStart="@dimen/margin_30dp"
+                android:layout_toRightOf="@id/tv_level"
+                android:src="@drawable/heart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_toRightOf="@id/img_love"
+                android:text="@string/title_faved_you"
+                android:textColor="#fe532c"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_8dp">
+
+            <TextView
+                android:id="@+id/line_faves"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_my_faves" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/mardin_20dp"
+                android:layout_toEndOf="@id/line_faves"
+                android:background="#292727" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/margin_48dp"
+                android:layout_height="@dimen/margin_48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/gai1" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/margin_48dp"
+                android:layout_height="@dimen/margin_48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/gai2" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/margin_48dp"
+                android:layout_height="@dimen/margin_48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/gai3" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/margin_48dp"
+                android:layout_height="@dimen/margin_48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/gai4" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/margin_48dp"
+                android:layout_height="@dimen/margin_48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/gai5" />
+
+            <Button
+                android:layout_width="@dimen/margin_48dp"
+                android:layout_height="@dimen/margin_48dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@color/color_xanh_la"
+                android:text="@string/title_123" />
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="1dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_8dp">
+
+            <TextView
+                android:id="@+id/line_Inf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_info" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/line_Inf"
+                android:background="#292727" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/title_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="38dp"
+                android:layout_toEndOf="@id/tv_name"
+                android:text="@string/name_tony"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/mardin_20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_bir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_name"
+                android:layout_marginStart="@dimen/margin_40dp"
+                android:layout_marginTop="@dimen/margin_40dp"
+                android:text="@string/title_birthday" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_name"
+                android:layout_marginLeft="@dimen/margin_8dp"
+                android:layout_marginTop="@dimen/margin_40dp"
+                android:layout_toEndOf="@id/tv_bir"
+                android:text="@string/birth_16_10_2000"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/mardin_20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_bir"
+                android:layout_marginStart="@dimen/margin_40dp"
+                android:layout_marginTop="@dimen/margin_40dp"
+                android:text="@string/title_gender" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_bir"
+                android:layout_marginLeft="@dimen/margin_8dp"
+                android:layout_marginTop="@dimen/margin_40dp"
+                android:layout_toEndOf="@id/tv_gender"
+                android:text="@string/title_male"
+                android:textColor="@drawable/back"
+                android:textSize="@dimen/mardin_20dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/ln_Inf"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="-20dp"
+        android:src="@drawable/chat" />
+
+
+</RelativeLayout>

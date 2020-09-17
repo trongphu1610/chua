@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="color_xam">#878181</color>
+    <color name="color_text">#A8B3AE</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_yellow">#FFE607</color>
+    <color name="color_black">#000000</color>
+    <color name="color_xanh_la">#5FCF9C</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_blue">#76ADC6</color>
+    <color name="color_xanh_la_dam">#37913D</color>
+    <color name="color_tim">#9C27B0</color>
+    <color name="color_green">#0EE316</color>
+    <color name="color_blue_dark">#3F51B5</color>
+    <color name="color_pink">#E91E63</color>
+    <color name="color_pink1">#ED2D6E</color>
+    <color name="color_cam">#f7a815</color>
+</resources>

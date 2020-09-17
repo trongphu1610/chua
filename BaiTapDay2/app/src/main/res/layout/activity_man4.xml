@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#439E49"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mardin_20dp"
+        android:layout_marginTop="@dimen/margin_100dp"
+        android:layout_marginRight="@dimen/mardin_20dp"
+        android:text="@string/title_username"
+        android:textColor="@color/color_white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mardin_20dp"
+        android:layout_marginRight="@dimen/mardin_20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mardin_20dp"
+        android:layout_marginTop="@dimen/mardin_20dp"
+        android:layout_marginRight="@dimen/mardin_20dp"
+        android:text="@string/title_password"
+        android:textColor="#C6ABAB" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mardin_20dp"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:layout_marginRight="@dimen/mardin_20dp"
+        android:background="#356E37"
+        android:text="@string/title_sign_in"
+        android:textColor="@color/color_white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mardin_20dp"
+        android:gravity="center"
+        android:text="@string/title_no_account"
+        android:textColor="@color/color_white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/mardin_20dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_marginRight="@dimen/mardin_20dp"
+        android:text="@string/title_or"
+        android:textColor="#8D9390" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:src="@drawable/accc" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_35dp"
+        android:src="@drawable/bbb" />
+
+</LinearLayout>

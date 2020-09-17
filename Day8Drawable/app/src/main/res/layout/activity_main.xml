@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_text_chat"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/abc"
+        android:text="fdas f asdf á df asdf asd f asdf asd f asd fa sdf asd f asdf asd fasd f asd fas df asd f asdf asd f asdf asd f asdf asd f asdf asd f asd fasd f asd fasd f asd f"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/abc_chat"
+        android:text="fdas f asdf á df asdf asd f asdf asd f asd fa sdf asd f asdf asd fasd f asd fas df asd f asdf asd f asdf asd f asdf asd f asdf asd f asd fasd f asd fasd f asd f"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/state_btn_login"
+        android:padding="10dp"
+        android:text="Login"
+        android:textColor="@color/color_btn_login" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_edt_name"
+        android:hint="Hello world"
+        android:padding="16dp" />
+
+    <ImageView
+        android:id="@+id/img_led"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/transition_led" />
+
+    <ImageView
+        android:id="@+id/img_level"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/level_drawable" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/share_text_view"
+        android:padding="16dp"
+        android:text="This is a message"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BaiTapDay2</string>
+    <string name="title_fullname">Fullname</string>
+
+    <string name="title_password">Password</string>
+    <string name="titile_register">REGISTER</string>
+    <string name="title_already_registred_login_me">Already registred! Login Me.</string>
+
+    <string name="title_email">Email</string>
+    <string name="title_forgot_your_password">Forgot your password</string>
+    <string name="title_Meger">Meger</string>
+    <string name="title_audio">Audio</string>
+
+    <string name="tilte_editor">Editor</string>
+    <string name="title_sign_in_with_facebook">SIGN IN WITH FACEBOOK</string>
+    <string name="title_username">Username</string>
+    <string name="title_no_account">No Account yet ? Create one</string>
+    <string name="title_or">________________________ or ___________________________</string>
+    <string name="title_sign_in">SIGN IN</string>
+    <string name="title_followers">Followers</string>
+    <string name="number_886">886</string>
+    <string name="titile_following">Following</string>
+    <string name="number_692">692</string>
+    <string name="title_videos">Videos</string>
+    <string name="number_0962">0962</string>
+    <string name="title_17_min_ago">17 min ago</string>
+    <string name="title_trong_phu">Trọng Phú</string>
+    <string name="title_october_10">October 10</string>
+    <string name="title_editor">EDITOR</string>
+    <string name="title_model_super_start">Model / super start</string>
+    <string name="content">Lorem ipsum dolor sit amet , consectetur adioiscing elit . Ut consectetur mi neque.Phasellus imperdiet varius nisl vel mattis sit amet</string>
+    <string name="title_5_level">5 Level</string>
+    <string name="title_name">Name :</string>
+    <string name="name_tony">Tony</string>
+    <string name="title_birthday">Birthday :</string>
+    <string name="birth_16_10_2000">16/10/2000</string>
+    <string name="title_gender">Gender :</string>
+    <string name="title_male">Male</string>
+    <string name="title_info">INFO</string>
+    <string name="title_my_faves">MY FAVES</string>
+    <string name="title_faved_you">Faved you</string>
+    <string name="title_123">123+</string>
+    <string name="title_online">online</string>
+</resources>

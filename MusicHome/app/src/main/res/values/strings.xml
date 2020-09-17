@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MusicHome</string>
+    <string name="title_registrion">Registration</string>
+    <string name="title_login">Login</string>
+    <string name="title_personal">Personal</string>
+    <string name="title_song">Song</string>
+    <string name="title_album">Album</string>
+    <string name="title_singer">Singer</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_home">Home</string>
+    <string name="title_top">Top Trending</string>
+    <string name="title_share">Share</string>
+    <string name="title_password">Password</string>
+    <string name="title_password_again">Please enter your password </string>
+    <string name="title_username">Username</string>
+    <string name="title_person">Person</string>
+    <string name="title_doi_mat_khau">Đổi Mật Khẩu</string>
+    <string name="title_log_out">Log Out</string>
+    <string name="title_yes">Yes</string>
+    <string name="title_no">NO</string>
+    <string name="title_content_logout">Bạn có chắc chắn đăng xuất không ? Yes or No</string>
+    <string name="title_logout">Đăng Xuất</string>
+    <string name="title_thongtin">Thông Tin Ứng Dụng</string>
+    <string name="title_moi_user">Mời bạn nhập Username</string>
+    <string name="title_mat_khau_cu">Mời Nhập Mật Khẩu Cũ</string>
+    <string name="title_mat_khau_moi">Mời Nhập Mật Khẩu Mới</string>
+    <string name="title_content_mail">abc@gmail.com</string>
+    <string name="title_information">Information</string>
+    <string name="title_number_phone">Số Điện Thoại</string>
+    <string name="title_email">Email</string>
+    <string name="title_content">Nội Dung :</string>
+    <string name="title_content_introduce">Với nhu cầu nghe nhạc, giải trí ngày càng cao như hiện nay . Chúng tôi đã phát triển một ứng dụng mang tên " Music Home" . Ứng dụng cung cấp một kho nhạc chất lượng cao , miễn phí khổng lồ , luôn được  cập nhật liên tục  . Giúp người dùng  có  những trải nghiệm  âm nhạc thư giãn , giải trí . </string>
+    <string name="title_phone">0962692886</string>
+    <string name="title_address">Phú Kiều - Kiều Mai - Bắc Từ Liêm - Hà Nội</string>
+    <string name="title_introduce">Giới Thiệu</string>
+    <string name="title_name_company">Công ty NTP Compro</string>
+    <string name="tv_title_address">Địa chỉ</string>
+    <string name="company">Nhà phát triển</string>
+    <string name="title_music_player">Music player</string>
+    <string name="title_nguyen_trong_phu">Nguyễn Trọng Phú</string>
+    <string name="title_old">20 Years old</string>
+
+</resources>

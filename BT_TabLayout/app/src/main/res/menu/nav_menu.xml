@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_news"
+        android:icon="@drawable/icon_news"
+        android:title="Tin Tức Giải Trí" />
+    <item
+        android:id="@+id/tab_music"
+        android:icon="@drawable/music"
+        android:title="Nghe Nhạc" />
+    <item
+        android:id="@+id/tab_video"
+        android:icon="@drawable/video"
+        android:title="Video_clip_Film" />
+    <item
+        android:id="@+id/tab_covid"
+        android:icon="@drawable/virus"
+        android:title="Dịch Covid" />
+</menu>
